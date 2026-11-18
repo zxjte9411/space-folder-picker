@@ -1,9 +1,5 @@
 # Space Folder Picker
 
-## Attribution and license
-
-`mods/spaces-folder-picker/main.js` is modified from Herdr's `defaults/mods/spaces/main.js` at tag `v0.1.16` (commit `034f8b85f7e6bb71f8ff55cb4a80c548b2578c0f`): the sidebar header + now opens this package's folder-picker menu; the remaining Spaces behavior is retained. Herdr's upstream project is licensed under Apache-2.0. The complete upstream license text is included as `LICENSE`. No upstream `NOTICE` file was present in the provided source package.
-
 In the Spaces sidebar, the + opens a two-item menu: choose a local folder before creating a space, or create a space the usual way. The folder choice uses the operating system's native picker.
 
 ![Space Folder Picker](preview.png)
@@ -23,6 +19,8 @@ The sidebar retains the shipped Spaces mod's behavior for working, blocked, done
 - This mod adds no keyboard binding. Popup dismissal follows Herdr's standard popup behavior.
 
 ## Built from
+
+`mods/spaces-folder-picker/main.js` is modified from Herdr's `defaults/mods/spaces/main.js` at tag `v0.1.16` (commit `034f8b85f7e6bb71f8ff55cb4a80c548b2578c0f`): the sidebar header + now opens this package's folder-picker menu; the remaining Spaces behavior is retained. Herdr's upstream project is licensed under Apache-2.0. The complete upstream license text is included as `LICENSE`. No upstream `NOTICE` file was present in the provided source package.
 
 Start with Herdr 0.1.16's shipped `spaces` mod, clone it as `spaces-folder-picker`, and retain its existing code, assets, machine grouping, Git metadata and status handling. Change only the header + handler to:
 
